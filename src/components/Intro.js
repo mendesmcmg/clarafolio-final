@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import Me from "../assets/Images/profile-img.png";
+import ClaraAnimation from "../assets/animations/ClaraAnimation";
 
 const Box = styled(motion.div)`
   position: absolute;
@@ -74,8 +74,11 @@ const Intro = () => {
       <SubBox>
         <Text>
           <h1>Hi,</h1>
-          <h3>I'm CodeBucks.</h3>
-          <h6>I design and Code simple yet beautiful websites.</h6>
+          <h3>I'm Clara Mendes.</h3>
+          <h6>
+            I'm a computer science student and I like to code with React and
+            Ruby on Rails.
+          </h6>
         </Text>
       </SubBox>
       <SubBox>
@@ -84,7 +87,7 @@ const Intro = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2 }}
         >
-          <img className="pic" src={Me} alt="Profile Pic" />
+          <ClaraAnimation />
         </motion.div>
       </SubBox>
     </Box>
