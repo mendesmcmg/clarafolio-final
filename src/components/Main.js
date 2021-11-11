@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
+import MainAnimation from "../assets/animations/MainAnimations";
 import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
 import SocialIcons from "../subComponents/SocialIcons";
-import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 
 const MainContainer = styled.div`
@@ -105,9 +105,9 @@ const Center = styled.button`
   align-items: center;
   transition: all 1s ease;
 
-  & > :first-child {
+  /* & > :first-child {
     animation: ${rotate} infinite 1.5s linear;
-  }
+  } */
 
   & > :last-child {
     display: ${(props) => (props.click ? "none" : "inline-block")};
@@ -141,7 +141,7 @@ const Main = () => {
         <SocialIcons theme={click ? "dark" : "light"} />
 
         <Center click={click}>
-          <YinYang
+          <MainAnimation
             onClick={() => handleClick()}
             width={click ? 120 : 200}
             height={click ? 120 : 200}
