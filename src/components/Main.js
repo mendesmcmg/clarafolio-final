@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import MainAnimation from "../assets/animations/MainAnimations";
 import LogoComponent from "../subComponents/LogoComponent";
 import PowerButton from "../subComponents/PowerButton";
@@ -80,15 +80,6 @@ const SKILLS = styled(NavLink)`
   z-index: 1;
 `;
 
-const rotate = keyframes`
-from{
-    transform: rotate(0);
-}
-to{
-    transform: rotate(360deg);
-}
-`;
-
 const Center = styled.button`
   position: absolute;
   top: ${(props) => (props.click ? "85%" : "50%")};
@@ -104,10 +95,6 @@ const Center = styled.button`
   justify-content: center;
   align-items: center;
   transition: all 1s ease;
-
-  /* & > :first-child {
-    animation: ${rotate} infinite 1.5s linear;
-  } */
 
   & > :last-child {
     display: ${(props) => (props.click ? "none" : "inline-block")};
