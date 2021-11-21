@@ -16,19 +16,19 @@ const Box = styled(motion.div)`
   background: linear-gradient(
         to right,
         ${(props) => props.theme.body} 50%,
-        ${(props) => props.theme.text} 50%
+        #DD1C1A 50%
       )
       bottom,
     linear-gradient(
         to right,
         ${(props) => props.theme.body} 50%,
-        ${(props) => props.theme.text} 50%
+        #DD1C1A 50%
       )
       top;
   background-repeat: no-repeat;
   background-size: 100% 2px;
   border-left: 2px solid ${(props) => props.theme.body};
-  border-right: 2px solid ${(props) => props.theme.text};
+  border-right: 4px solid #DD1C1A;
 
   z-index: 1;
 `;

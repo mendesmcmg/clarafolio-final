@@ -105,7 +105,7 @@ const Center = styled.button`
 const DarkDiv = styled.div`
   position: absolute;
   top: 0;
-  background-color: #000;
+  background-color: #011638;
   bottom: 0;
   right: 50%;
   width: ${(props) => (props.click ? "50%" : "0%")};
