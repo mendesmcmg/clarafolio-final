@@ -7,10 +7,10 @@ import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitlte";
-import astronaut from "../assets/Images/spaceman.png";
+import clara from "../assets/Images/clara.jpeg";
 
 const Box = styled.div`
-  background-color: ${(props) => props.theme.body};
+  background-color: #011638;
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -19,7 +19,7 @@ const Box = styled.div`
 const float = keyframes`
 0% { transform: translateY(-10px) }
 50% { transform: translateY(15px) translateX(15px) }
-100% { transform: translateY(-10px) }
+100% { transform: translateY(-10px) translateX(-15px) }
 
 `;
 const Spaceman = styled.div`
@@ -31,6 +31,7 @@ const Spaceman = styled.div`
   img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
   }
 `;
 const Main = styled.div`
@@ -50,8 +51,7 @@ const Main = styled.div`
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
-  font-family: "Ubuntu Mono", monospace;
-  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
 `;
 
 const AboutPage = () => {
@@ -64,17 +64,18 @@ const AboutPage = () => {
         <ParticleComponent theme="dark" />
 
         <Spaceman>
-          <img src={astronaut} alt="spaceman" />
+          <img src={clara} alt="spaceman" />
         </Spaceman>
         <Main>
-          I'm a front-end developer located in India. I love to create simple
-          yet beautiful websites with great user experience.
+          I'm a web developer located in Brazil. I am currently working at Ribon App,
+          a startup focused on enabling donations to NGOs.
           <br /> <br />
-          I'm interested in the whole frontend stack Like trying new things and
-          building great projects. I'm an independent freelancer and blogger. I
-          love to write blogs and read books.
-          <br /> <br />I believe everything is an Art when you put your
-          consciousness in it. You can connect with me via social links.
+          I started to study computer science in 2019 and focused a lot on front-end 
+          development so far, with React.js being my main framework of choice. In spite of
+          that, I also have great interest in back-end development, especially with Ruby on Rails.
+          <br /> <br />
+          I love to read and watch movies, and right now I'm learning more about algorithms, data 
+          structures and good practices.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
