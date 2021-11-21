@@ -127,11 +127,10 @@ const Main = () => {
         <LogoComponent theme={click ? "dark" : "light"} />
         <SocialIcons theme={click ? "dark" : "light"} />
 
-        <Center click={click}>
+        <Center click={click} onClick={() => handleClick()}>
           <MainAnimation
-            onClick={() => handleClick()}
-            width={click ? 120 : 200}
-            height={click ? 120 : 200}
+            width={click ? 220 : 400}
+            height={click ? 120 : 250}
             fill="currentColor"
           />
           <span>click here</span>

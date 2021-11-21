@@ -4,7 +4,7 @@ import animation1 from "./red-book.json";
 import animation2 from "./red-design-animation.json";
 import animation3 from "./work-from-home-red-head.json";
 
-function MainAnimation() {
+function MainAnimation(props) {
   const animationOptions = [animation1, animation2, animation3];
   const animation = animationOptions[Math.floor(Math.random() * 3)];
   const defaultOptions = {
@@ -20,8 +20,8 @@ function MainAnimation() {
     <div>
       <Lottie 
 	      options={defaultOptions}
-        height={250}
-        width={400}
+        {...props}
+        fill={props.fill}
       />
     </div>
   );
