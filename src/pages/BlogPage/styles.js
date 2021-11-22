@@ -4,11 +4,12 @@ import styled from "styled-components";
 
 
 export const MainContainer = styled(motion.div)`
-  background-image: url(${img});
+  /* background-image: url(${img});
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
+  background-color: #011638;
 `;
 export const Container = styled.div`
   background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.8)`};
