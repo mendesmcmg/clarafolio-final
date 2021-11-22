@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import ClaraAnimation from "../assets/animations/ClaraAnimation";
+import ClaraAnimation from "../../assets/animations/ClaraAnimation";
 
 const Box = styled(motion.div)`
   position: absolute;

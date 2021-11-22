@@ -1,13 +1,13 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { lightTheme } from "../components/Themes";
-import { Design, Develope } from "../components/AllSvgs";
+import { lightTheme } from "../../components/Themes";
+import { Design, Develope } from "../../components/AllSvgs";
 
-import LogoComponent from "../subComponents/LogoComponent";
-import SocialIcons from "../subComponents/SocialIcons";
-import PowerButton from "../subComponents/PowerButton";
-import ParticleComponent from "../subComponents/ParticleComponent";
-import BigTitle from "../subComponents/BigTitlte";
+import LogoComponent from "../../subComponents/LogoComponent";
+import SocialIcons from "../../subComponents/SocialIcons";
+import PowerButton from "../../subComponents/PowerButton";
+import ParticleComponent from "../../subComponents/ParticleComponent";
+import BigTitle from "../../subComponents/BigTitlte";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};

@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import MainAnimation from "../assets/animations/MainAnimations";
-import LogoComponent from "../subComponents/LogoComponent";
-import PowerButton from "../subComponents/PowerButton";
-import SocialIcons from "../subComponents/SocialIcons";
-import Intro from "./Intro";
+import MainAnimation from "../../assets/animations/MainAnimations";
+import LogoComponent from "../../subComponents/LogoComponent";
+import PowerButton from "../../subComponents/PowerButton";
+import SocialIcons from "../../subComponents/SocialIcons";
+import Intro from "../Intro/Intro";
 
 const MainContainer = styled.div`
   background: ${(props) => props.theme.body};

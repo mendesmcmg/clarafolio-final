@@ -1,13 +1,13 @@
 import React from "react";
 import styled, { keyframes, ThemeProvider } from "styled-components";
-import { DarkTheme } from "../components/Themes";
+import { DarkTheme } from "../../components/Themes";
 
-import LogoComponent from "../subComponents/LogoComponent";
-import SocialIcons from "../subComponents/SocialIcons";
-import PowerButton from "../subComponents/PowerButton";
-import ParticleComponent from "../subComponents/ParticleComponent";
-import BigTitle from "../subComponents/BigTitlte";
-import clara from "../assets/Images/clara.jpeg";
+import LogoComponent from "../../subComponents/LogoComponent";
+import SocialIcons from "../../subComponents/SocialIcons";
+import PowerButton from "../../subComponents/PowerButton";
+import ParticleComponent from "../../subComponents/ParticleComponent";
+import BigTitle from "../../subComponents/BigTitlte";
+import clara from "../../assets/Images/clara.jpeg";
 
 const Box = styled.div`
   background-color: #011638;

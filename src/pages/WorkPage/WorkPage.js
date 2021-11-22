@@ -1,16 +1,16 @@
 import React, { useEffect, useRef } from "react";
 import styled, { ThemeProvider } from "styled-components";
-import { DarkTheme } from "../components/Themes";
+import { DarkTheme } from "../../components/Themes";
 import { motion } from "framer-motion";
 
-import LogoComponent from "../subComponents/LogoComponent";
-import SocialIcons from "../subComponents/SocialIcons";
-import PowerButton from "../subComponents/PowerButton";
+import LogoComponent from "../../subComponents/LogoComponent";
+import SocialIcons from "../../subComponents/SocialIcons";
+import PowerButton from "../../subComponents/PowerButton";
 
-import { Work } from "../data/WorkData";
-import Card from "../subComponents/Card";
-import { YinYang } from "../components/AllSvgs";
-import BigTitlte from "../subComponents/BigTitlte";
+import { Work } from "../../data/WorkData";
+import Card from "../../subComponents/Card";
+import { YinYang } from "../../components/AllSvgs";
+import BigTitlte from "../../subComponents/BigTitlte";
 
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
