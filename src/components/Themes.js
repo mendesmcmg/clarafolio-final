@@ -9,7 +9,7 @@ export const lightTheme = {
 };
 
 export const DarkTheme = {
-  body: "#000000",
+  body: "#011638",
   text: "#FCF6F4",
   fontFamily: "'Source Sans Pro', sans-serif",
   textRgba: "252, 246, 244",
