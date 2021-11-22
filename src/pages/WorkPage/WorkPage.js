@@ -9,7 +9,7 @@ import PowerButton from "../../subComponents/PowerButton";
 
 import { Work } from "../../data/WorkData";
 import Card from "../../subComponents/Card";
-import { YinYang } from "../../components/AllSvgs";
+import MainAnimation from "../../assets/animations/MainAnimations";
 import BigTitle from "../../subComponents/BigTitle";
 
 const Box = styled.div`
@@ -86,7 +86,7 @@ const WorkPage = () => {
           ))}
         </Main>
         <Rotate ref={yinyang}>
-          <YinYang width={80} height={80} fill={DarkTheme.text} />
+          <MainAnimation width={110} height={60} fill={DarkTheme.text} />
         </Rotate>
 
         <BigTitle text="WORK" top="10%" right="20%" />
