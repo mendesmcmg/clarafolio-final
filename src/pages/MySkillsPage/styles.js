@@ -1,4 +1,4 @@
-import styled, { ThemeProvider } from "styled-components";
+import styled from "styled-components";
 
 export const Box = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -12,7 +12,7 @@ export const Box = styled.div`
 
 export const Main = styled.div`
   border: 2px solid ${(props) => props.theme.text};
-  color: ${(props) => props.theme.text};
+  color: #011638;
   background-color: ${(props) => props.theme.body};
   padding: 2rem;
   width: 30vw;
@@ -28,7 +28,7 @@ export const Main = styled.div`
 
   &:hover {
     color: ${(props) => props.theme.body};
-    background-color: ${(props) => props.theme.text};
+    background-color: #011638;
   }
 `;
 
@@ -50,7 +50,7 @@ export const Title = styled.h2`
 `;
 
 export const Description = styled.div`
-  color: ${(props) => props.theme.text};
+  color: #011638;
   font-size: calc(0.6em + 1vw);
   padding: 0.5rem 0;
 
