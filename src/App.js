@@ -4,11 +4,11 @@ import { lightTheme } from "./components/Themes";
 import GlobalStyle from "./globalStyles";
 
 //Components
-import Main from "./components/Main";
-import AboutPage from "./components/AboutPage";
-import BlogPage from "./components/BlogPage";
-import WorkPage from "./components/WorkPage";
-import MySkillsPage from "./components/MySkillsPage";
+import Main from "./pages/Main";
+import AboutPage from "./pages/AboutPage";
+import BlogPage from "./pages/BlogPage/BlogPage";
+import WorkPage from "./pages/WorkPage";
+import MySkillsPage from "./pages/MySkillsPage";
 import { AnimatePresence } from "framer-motion";
 import SoundBar from "./subComponents/SoundBar";
 
