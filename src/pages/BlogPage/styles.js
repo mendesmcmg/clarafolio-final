@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import img from "../../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
 import styled from "styled-components";
 
 
