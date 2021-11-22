@@ -10,7 +10,7 @@ import BlogPage from "./pages/BlogPage/BlogPage";
 import WorkPage from "./pages/WorkPage/WorkPage";
 import MySkillsPage from "./pages/MySkillsPage/MySkillsPage";
 import { AnimatePresence } from "framer-motion";
-import SoundBar from "./subComponents/SoundBar";
+import SoundBar from "./components/SoundBar";
 
 function App() {
   const location = useLocation();

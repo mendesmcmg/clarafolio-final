@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import MainAnimation from "../../assets/animations/MainAnimations";
-import LogoComponent from "../../subComponents/LogoComponent";
-import PowerButton from "../../subComponents/PowerButton";
-import SocialIcons from "../../subComponents/SocialIcons";
+import LogoComponent from "../../components/LogoComponent";
+import PowerButton from "../../components/PowerButton";
+import SocialIcons from "../../components/SocialIcons";
 import Intro from "../Intro/Intro";
 import {
   MainContainer,

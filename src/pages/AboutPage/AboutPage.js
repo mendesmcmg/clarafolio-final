@@ -2,11 +2,11 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { DarkTheme } from "../../components/Themes";
 
-import LogoComponent from "../../subComponents/LogoComponent";
-import SocialIcons from "../../subComponents/SocialIcons";
-import PowerButton from "../../subComponents/PowerButton";
-import ParticleComponent from "../../subComponents/ParticleComponent";
-import BigTitle from "../../subComponents/BigTitle";
+import LogoComponent from "../../components/LogoComponent";
+import SocialIcons from "../../components/SocialIcons";
+import PowerButton from "../../components/PowerButton";
+import ParticleComponent from "../../components/ParticleComponent";
+import BigTitle from "../../components/BigTitle";
 import clara from "../../assets/Images/clara.jpeg";
 import { Box, Spaceman, Main } from "./styles";
 

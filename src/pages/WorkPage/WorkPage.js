@@ -2,14 +2,14 @@ import React, { useEffect, useRef } from "react";
 import { ThemeProvider } from "styled-components";
 import { DarkTheme } from "../../components/Themes";
 
-import LogoComponent from "../../subComponents/LogoComponent";
-import SocialIcons from "../../subComponents/SocialIcons";
-import PowerButton from "../../subComponents/PowerButton";
+import LogoComponent from "../../components/LogoComponent";
+import SocialIcons from "../../components/SocialIcons";
+import PowerButton from "../../components/PowerButton";
 
 import { Work } from "../../data/WorkData";
-import Card from "../../subComponents/Card";
+import Card from "../../components/Card";
 import MainAnimation from "../../assets/animations/MainAnimations";
-import BigTitle from "../../subComponents/BigTitle";
+import BigTitle from "../../components/BigTitle";
 import { Box, Main, container, Rotate } from "./styles";
 
 const WorkPage = () => {

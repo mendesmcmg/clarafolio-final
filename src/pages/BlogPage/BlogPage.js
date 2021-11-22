@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import LogoComponent from "../../subComponents/LogoComponent";
-import SocialIcons from "../../subComponents/SocialIcons";
-import PowerButton from "../../subComponents/PowerButton";
+import LogoComponent from "../../components/LogoComponent";
+import SocialIcons from "../../components/SocialIcons";
+import PowerButton from "../../components/PowerButton";
 
 import { Blogs } from "../../data/BlogData";
 import BlogComponent from "./BlogComponent";
-import AnchorComponent from "../../subComponents/Anchor";
-import BigTitle from "../../subComponents/BigTitle";
+import AnchorComponent from "../../components/Anchor";
+import BigTitle from "../../components/BigTitle";
 import { MainContainer, Container, Center, Grid, container } from "./styles";
 
 const BlogPage = () => {

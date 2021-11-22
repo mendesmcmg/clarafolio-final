@@ -3,11 +3,11 @@ import { ThemeProvider } from "styled-components";
 import { lightTheme } from "../../components/Themes";
 import { Design, Develope } from "../../components/AllSvgs";
 
-import LogoComponent from "../../subComponents/LogoComponent";
-import SocialIcons from "../../subComponents/SocialIcons";
-import PowerButton from "../../subComponents/PowerButton";
-import ParticleComponent from "../../subComponents/ParticleComponent";
-import BigTitle from "../../subComponents/BigTitle";
+import LogoComponent from "../../components/LogoComponent";
+import SocialIcons from "../../components/SocialIcons";
+import PowerButton from "../../components/PowerButton";
+import ParticleComponent from "../../components/ParticleComponent";
+import BigTitle from "../../components/BigTitle";
 import { Box, Main, Title, Description } from "./styles";
 
 const MySkillsPage = () => {
